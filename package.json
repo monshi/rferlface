@@ -1,0 +1,26 @@
+{
+  "name": "rferlface",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~2.0.1",
+    "@fitbit/sdk-cli": "^1.0.2"
+  },
+  "fitbit": {
+    "appUUID": "af92459c-b729-42cd-bba9-03fc4d7584f7",
+    "appType": "clockface",
+    "appDisplayName": "Rferlface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
